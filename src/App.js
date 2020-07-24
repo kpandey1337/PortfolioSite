@@ -27,7 +27,7 @@ function App() {
         <div className="p-3">
           <Switch>
             <Route exact path="/">
-                <HelloWorld name="Angela" />
+                {/*<HelloWorld name="Angela" />*/}
                 <Home />
               </Route>
             <Route path="/about">

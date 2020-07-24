@@ -8,7 +8,7 @@ function Navigation(){
     //false: menu is closed, true: menu is open
     const [showMenu, setShowMenu] = useState(false)
     const maskTransitions = useTransition(showMenu, null, {
-        from:{position:'absolute', opacity:0},
+        from:{ opacity:0},
         enter:{opacity: 1},
         leave: {opacity:0},
     })
@@ -65,7 +65,7 @@ function Navigation(){
                 <animated.div 
                     key={key} 
                     style={props}
-                    className="bg-black-t-50 fixed top-0 left-0 w-full h-full z-50"
+                    className="fixed bg-black-t-50 fixed top-0 left-0 w-full h-full z-40"
                     onClick={() => setShowMenu(false)}
                 >
                 </animated.div>
@@ -77,7 +77,7 @@ function Navigation(){
                 <animated.div 
                     key={key} 
                     style={props}
-                    className="fixed bg-white top-0 left-0 w-4/5 h-full z-50 shadow p-3"
+                    className="fixed bg-white top-0 left-0 w-3/5 h-full z-50 shadow p-3"
                 >
                 <NavigationMenu 
                     closeMenu={()=> setShowMenu(false)}
