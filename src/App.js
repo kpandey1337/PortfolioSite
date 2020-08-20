@@ -9,14 +9,13 @@ import ContactMe from "./Views/ContactMe";
 
 function App() {
   return (
-    //pass in a prop 'name=Angela'
     <div>
       <Router>
         <Header />
 
         <div className="p-3">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/PortfolioSite">
               {/*<HelloWorld name="Angela" />*/}
               <Home />
             </Route>
