@@ -5,6 +5,8 @@ import ReactPlayer from "react-player";
 
 import IronEng from "../Images/IronEng.png";
 import WayPoint from "../Images/secondpart.mov";
+import IronEngineerReport from "../Documents/IronEngineerReport.pdf";
+import SeniorDesignReport from "../Documents/SeniorDesignReport.pdf";
 
 function NewProjects() {
   return (
@@ -23,7 +25,7 @@ function NewProjects() {
               </a>
               <p className="inline float-right underline transition duration-500 ease-in-out hover:text-green-500">
                 {" "}
-                Documentation
+                <a href={IronEngineerReport}>Documentation</a>
               </p>
             </p>
             <p className="font-bold text-l pt-3 text-blue-400"> Technologies Used:</p>
@@ -102,7 +104,7 @@ function NewProjects() {
               </a>
               <p className="inline float-right underline transition duration-500 ease-in-out hover:text-green-500">
                 {" "}
-                Documentation
+                <a href={SeniorDesignReport}>Documentation</a>
               </p>
             </p>
             <p className="font-bold text-l pt-3 text-blue-400"> Technologies Used:</p>
