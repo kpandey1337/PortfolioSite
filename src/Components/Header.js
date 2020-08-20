@@ -1,17 +1,14 @@
-import React from 'react';
-import Navigation from './Navigation';
+import React from "react";
+import Navigation from "./Navigation";
 
+function Header() {
+  return (
+    <header className="border-b p-3 flex justify-between items-center">
+      <span className="font-bold">Kunal Pandey</span>
 
-function Header(){
-    return (
-        <header className="border-b p-3 flex justify-between items-center">
-            <span className="font-bold">
-                Kunal Pandey
-            </span>
-
-            <Navigation />
-        </header>
-    )
+      <Navigation />
+    </header>
+  );
 }
 
 export default Header;
