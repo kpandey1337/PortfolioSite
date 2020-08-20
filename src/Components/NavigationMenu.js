@@ -1,46 +1,50 @@
-import React from 'react'
-import Navigation from './Navigation'
-import {Link} from 'react-router-dom'
-function NavigationMenu(props){
-    return (
-        <div>
-            <div className="font-bold py-3">
-                Kunal Pandey
-            </div>
-            <ul>
-                <li>
-                    <Link 
-                        to="/" 
-                        className="text-blue-500 py-3 border-t border-b block"
-                        onClick={props.closeMenu}
-                    > 
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link 
-                        to="/about" 
-                        className="text-blue-500 py-3 border-t border-b block"
-                        onClick={props.closeMenu}
-                    >
-                        About
-                    </Link>
-                </li>
-                <li>
-                    <Link 
-                        to="/contactMe" 
-                        className="text-blue-500 py-3 border-t border-b block"
-                        onClick={props.closeMenu}
-                    >
-                        Contact Me
-                    </Link>
-                </li>
-            </ul>
-
-        </div>
-    )
-
-
+import React from "react";
+import Navigation from "./Navigation";
+import {Link} from "react-router-dom";
+function NavigationMenu(props) {
+  return (
+    <div>
+      <div className="font-bold py-3 pl-3">Kunal Pandey</div>
+      <ul className="pl-8">
+        <li>
+          <Link
+            to="/"
+            className="text-blue-500 py-3 border-t border-b block"
+            onClick={props.closeMenu}
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/about"
+            className="text-blue-500 py-3 border-t border-b block"
+            onClick={props.closeMenu}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/contactMe"
+            className="text-blue-500 py-3 border-t border-b block"
+            onClick={props.closeMenu}
+          >
+            Contact Me
+          </Link>
+          <li>
+            <Link
+              to="/Minesweeper"
+              className="text-blue-500 py-3 border-t border-b block"
+              onClick={props.closeMenu}
+            >
+              MineSweeper WebApp
+            </Link>
+          </li>
+        </li>
+      </ul>
+    </div>
+  );
 }
 
-export default NavigationMenu
+export default NavigationMenu;
