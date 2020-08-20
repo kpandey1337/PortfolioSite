@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/PortfolioSite/static/css/main.4af15143.chunk.css",
+    "main.js": "/PortfolioSite/static/js/main.101425d0.chunk.js",
+    "main.js.map": "/PortfolioSite/static/js/main.101425d0.chunk.js.map",
+    "runtime-main.js": "/PortfolioSite/static/js/runtime-main.544905d9.js",
+    "runtime-main.js.map": "/PortfolioSite/static/js/runtime-main.544905d9.js.map",
+    "static/js/2.595688b8.chunk.js": "/PortfolioSite/static/js/2.595688b8.chunk.js",
+    "static/js/2.595688b8.chunk.js.map": "/PortfolioSite/static/js/2.595688b8.chunk.js.map",
+    "index.html": "/PortfolioSite/index.html",
+    "precache-manifest.e2ce588dc15bff52b54cc1927c1d1438.js": "/PortfolioSite/precache-manifest.e2ce588dc15bff52b54cc1927c1d1438.js",
+    "service-worker.js": "/PortfolioSite/service-worker.js",
+    "static/css/main.4af15143.chunk.css.map": "/PortfolioSite/static/css/main.4af15143.chunk.css.map",
+    "static/js/2.595688b8.chunk.js.LICENSE.txt": "/PortfolioSite/static/js/2.595688b8.chunk.js.LICENSE.txt",
+    "static/media/IronEng.png": "/PortfolioSite/static/media/IronEng.bed86dca.png",
+    "static/media/bootstrap.svg": "/PortfolioSite/static/media/bootstrap.3ff965b6.svg",
+    "static/media/ec2.svg": "/PortfolioSite/static/media/ec2.a86c69bb.svg",
+    "static/media/git.svg": "/PortfolioSite/static/media/git.aaec9219.svg",
+    "static/media/hibernate.svg": "/PortfolioSite/static/media/hibernate.1750184f.svg",
+    "static/media/mysql.svg": "/PortfolioSite/static/media/mysql.f80a91ba.svg",
+    "static/media/nodejs.svg": "/PortfolioSite/static/media/nodejs.89ccb090.svg",
+    "static/media/react.svg": "/PortfolioSite/static/media/react.05a3e30f.svg",
+    "static/media/sanfran.jpg": "/PortfolioSite/static/media/sanfran.f89c7650.jpg",
+    "static/media/secondpart.mov": "/PortfolioSite/static/media/secondpart.81c11a33.mov",
+    "static/media/spring.svg": "/PortfolioSite/static/media/spring.5e9d46e5.svg",
+    "static/media/tailwind.svg": "/PortfolioSite/static/media/tailwind.3323dd02.svg",
+    "static/media/techabstract2.png": "/PortfolioSite/static/media/techabstract2.09fd1fa7.png",
+    "static/media/wip.gif": "/PortfolioSite/static/media/wip.e69d844b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.544905d9.js",
+    "static/js/2.595688b8.chunk.js",
+    "static/css/main.4af15143.chunk.css",
+    "static/js/main.101425d0.chunk.js"
+  ]
+}
