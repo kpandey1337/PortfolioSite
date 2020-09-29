@@ -19,9 +19,9 @@ function App() {
               {/*<HelloWorld name="Angela" />*/}
               <Home />
             </Route>
-            {/*<Route path="/about">
+            <Route path="/about">
               <About />
-            </Route>*/}
+            </Route>
             <Route path="/contactMe">
               <ContactMe />
             </Route>
