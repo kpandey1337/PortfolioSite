@@ -14,7 +14,7 @@ function NavigationMenu(props) {
             Home
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             to="/about"
             className="text-blue-500 py-3 border-t border-b block"
@@ -23,6 +23,7 @@ function NavigationMenu(props) {
             About
           </Link>
         </li>
+*/}
         <li>
           <Link
             to="/contactMe"
