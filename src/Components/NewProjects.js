@@ -18,10 +18,11 @@ function NewProjects() {
             <p className=" font-bold text-xl text-blue-400 pb-3">Iron Engineering Webapp</p>
             <img src={IronEng} alt="ironEng" />
             <p className=" text-left text-blue-700 underline">
-              <a href="https://github.com/kpandey1337/IronEngineerWebsite/tree/master/IronEngineerMaven-master">
-                <a className="transition duration-500 ease-in-out hover:text-green-500">
-                  Source Code <FontAwesomeIcon icon={faCodeBranch} />
-                </a>
+              <a
+                className="transition duration-500 ease-in-out hover:text-green-500"
+                href="https://github.com/kpandey1337/IronEngineerWebsite/tree/master/IronEngineerMaven-master"
+              >
+                Source Code <FontAwesomeIcon icon={faCodeBranch} />
               </a>
               <p className="inline float-right underline transition duration-500 ease-in-out hover:text-green-500">
                 {" "}
@@ -97,10 +98,11 @@ function NewProjects() {
             </video>
 
             <p className=" text-left text-blue-700 underline">
-              <a href="https://github.com/kpandey1337/WayPointAR">
-                <a className="transition duration-500 ease-in-out hover:text-green-500">
-                  Source Code <FontAwesomeIcon icon={faCodeBranch} />
-                </a>
+              <a
+                className="transition duration-500 ease-in-out hover:text-green-500"
+                href="https://github.com/kpandey1337/WayPointAR"
+              >
+                Source Code <FontAwesomeIcon icon={faCodeBranch} />
               </a>
               <p className="inline float-right underline transition duration-500 ease-in-out hover:text-green-500">
                 {" "}
@@ -170,10 +172,11 @@ function NewProjects() {
             </div>
 
             <p className=" text-left text-blue-700 underline">
-              <a href="https://sites.google.com/scu.edu/mages-quarters2/home?authuser=1">
-                <a className="transition duration-500 ease-in-out hover:text-green-500">
-                  Project Site
-                </a>
+              <a
+                className="transition duration-500 ease-in-out hover:text-green-500"
+                href="https://sites.google.com/scu.edu/mages-quarters2/home?authuser=1"
+              >
+                Project Site
               </a>
               <a
                 className="inline float-right underline transition duration-500 ease-in-out hover:text-green-500"

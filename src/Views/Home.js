@@ -9,7 +9,6 @@ import tailwindlogo from "../Images/tailwind.svg";
 import reactlogo from "../Images/react.svg";
 import nodejslogo from "../Images/nodejs.svg";
 import mysqllogo from "../Images/mysql.svg";
-import Projects from "../Components/Projects";
 import NewProjects from "../Components/NewProjects";
 
 function Home() {
